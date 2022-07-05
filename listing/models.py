@@ -9,7 +9,7 @@ class Listing(models.Model):
   stories = models.IntegerField()
   beds = models.IntegerField()
   baths = models.IntegerField()
-  Address = models.CharField(max_length=64)
+  address = models.CharField(max_length=64)
   description = models.TextField()
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now=True)
